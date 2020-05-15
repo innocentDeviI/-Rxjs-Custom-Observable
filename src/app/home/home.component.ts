@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   // this.intervalSubscription=interval(1000).subscribe(count=>{
   //   console.log(count)
   // })
+  
   intervalSubscription: Subscription
   constructor() { }
   ngOnInit() {
